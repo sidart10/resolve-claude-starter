@@ -1,0 +1,16 @@
+{
+ "schema": "resolve-starter.edit.v1",
+ "fps": 30,
+ "size": [1920, 1080],
+ "sources": {
+  "beach": {"path": "media/beach.mov", "duration": 42.5},
+  "cake": {"path": "media/cake.mov", "duration": 18.0},
+  "sunset": {"path": "media/sunset.mov", "duration": 10.0, "audio": false}
+ },
+ "events": [
+  {"id": "e1", "src": "beach", "in": 12.5, "rec_in": 0, "dur": 3},
+  {"id": "e2", "src": "cake", "in": 4, "rec_in": 3, "dur": 2.5, "zoom": 1.1},
+  {"id": "e3", "src": "sunset", "in": 1, "rec_in": 5.5, "dur": 4,
+   "join_in": {"type": "dissolve", "dur": 1.0}}
+ ]
+}

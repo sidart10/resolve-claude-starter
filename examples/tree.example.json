@@ -1,0 +1,11 @@
+{
+ "drx": "my-tree-v01.drx",
+ "nodes": [
+  {"label": "idt", "scriptable": []},
+  {"label": "bal", "scriptable": ["cdl", "enabled"]},
+  {"label": "adj", "scriptable": ["cdl", "enabled"]},
+  {"label": "look", "scriptable": ["lut", "enabled"]},
+  {"label": "tex", "scriptable": ["enabled"]},
+  {"label": "odt", "scriptable": []}
+ ]
+}

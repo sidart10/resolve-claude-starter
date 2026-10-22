@@ -1,0 +1,4 @@
+{
+ "*": {"tex": {"enabled": false}},
+ "beach.mov": {"bal": {"cdl": {"slope": [1.04, 1.0, 0.96], "offset": [0, 0, 0], "power": [1, 1, 1], "saturation": 1.0}}}
+}
