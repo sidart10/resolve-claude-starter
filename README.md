@@ -67,7 +67,7 @@ The details are below.
    python3 ~/.claude/skills/resolve-starter/scripts/smoke_test.py
    ```
 
-   You want `"ok": true`. On a recent Mac it takes under ten seconds.
+   You want `"ok": true`. It takes about 10 to 20 seconds.
 
 ## Permissions
 
